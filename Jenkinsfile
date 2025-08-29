@@ -14,6 +14,7 @@ pipeline {
                 sh '''
                  node --version
                  npm --version
+                 npm ci
                 '''
             }
         }
